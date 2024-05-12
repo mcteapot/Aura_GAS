@@ -42,7 +42,7 @@ void AAuraPlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
 
-	// Get Enhanced Input Component, we know being set in Default Calsses in Project Settings
+	// Get Enhanced Input Component, we know being set in Default Classes in Project Settings
 	UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(InputComponent);
 
 	// Bind input actions
